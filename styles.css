@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    font-family: monospace;
+}
+
+.main-container {
+    display: flex;
+}
+
+.folder {
+    text-align: center;
+    font-family: monospace;
+    font-size: 12px;
+    margin-right: 30px;
+}
+
+.folder img {
+    width: 60px;
+    height: auto;
+}
+
+.page-container {
+    max-width: 600px;
+    margin: auto;
+    font-family: monospace;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+li {
+    font-weight: bold;
+}
